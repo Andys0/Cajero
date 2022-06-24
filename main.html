@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cajero Principal</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@500&family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Lora:wght@500&family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Bienvenido [a]</h1>
+    <label class="titulo" for="">Saldo actual: </label>
+    <input class="saldo" type="text" name="Cantidad1" id="c1" value="500">
+
+    <form action="">
+        <h2>¿Qué deseas realizar?</h2>
+        <input class="canti" type="text" name="" id="cant" placeholder="Cantidad">
+        <hr>
+        <div class="botones">
+        <input type="button" value="Depositar" id="bt4" onclick="formula()">
+        <input type="button" value="Retirar" id="bt6" onclick="formula2()">
+        </div>
+        <script>
+        function formula() {
+                var CantidadTotal=parseInt(document.getElementById('cant').value);
+                var Cantidad1=parseInt(document.getElementById('c1').value);               
+                document.getElementById('c1').value=(Cantidad1+CantidadTotal);       
+                }
+
+                function formula2() {
+                var CantidadTotal=parseInt(document.getElementById('cant').value);
+                var Cantidad1=parseInt(document.getElementById('c1').value);               
+                document.getElementById('c1').value=(Cantidad1-CantidadTotal);       
+            }
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    background-color: #A7BEC0;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+    height: 150px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+body .titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+}
+
+body .saldo{
+    text-align: center;
+}
+
+form .canti{
+    position: relative;
+    right: -44%;
+    text-align: center;
+}
+
+form .botones{
+    position: relative;
+    text-align: center;
+}

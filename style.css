@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    background-color: #A7BEC0;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: center;
+    height: 150px;
+    padding-top: 10%;    /*altura diferencia*/
+}
+
+form .ingresar{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+form .boton{
+    text-align: center;
+    padding: 30px;
+ }
+
+ form .imagen{
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+    position: absolute;
+    right: 97%;
+    top: 5px;
+ }
+
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+    position: absolute;
+    left: 87%;
+    top: 30px;
+}
+
